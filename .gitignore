@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.env
+.venv
+venv/
+ENV/
+
+# PyTorch model weights (large files, exclude .pt unless small)
+models/vision/*.pt
+models/audio/*.pt
+models/text/*.pt
+models/fusion/*.pt
+
+# Training cache
+*.pth
+*.pkl
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data / datasets
+datasets/raw/
+datasets/*.zip
+datasets/*.tar.gz
+
+# Logs
+*.log
+logs/
+*.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Misc
+*.tmp
+*.cache
+analysis_history.db

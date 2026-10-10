@@ -1,0 +1,122 @@
+{
+  "modalities": {
+    "Vision Only (ResNet50)": {
+      "accuracy": 0.738,
+      "precision": 0.7385,
+      "recall": 0.7379,
+      "macro_f1": 0.7373,
+      "weighted_f1": 0.7381
+    },
+    "Audio Only (Mel-CNN)": {
+      "accuracy": 0.794,
+      "precision": 0.7932,
+      "recall": 0.7939,
+      "macro_f1": 0.7933,
+      "weighted_f1": 0.7939
+    },
+    "Text Only (DistilBERT)": {
+      "accuracy": 0.838,
+      "precision": 0.8376,
+      "recall": 0.8374,
+      "macro_f1": 0.8372,
+      "weighted_f1": 0.8383
+    },
+    "Late Fusion Baseline": {
+      "accuracy": 0.864,
+      "precision": 0.8635,
+      "recall": 0.8642,
+      "macro_f1": 0.8637,
+      "weighted_f1": 0.8638
+    },
+    "Feature Fusion (Concat)": {
+      "accuracy": 0.904,
+      "precision": 0.9046,
+      "recall": 0.9045,
+      "macro_f1": 0.9039,
+      "weighted_f1": 0.9041
+    },
+    "Attention Fusion (Proposed)": {
+      "accuracy": 0.927,
+      "precision": 0.9269,
+      "recall": 0.9271,
+      "macro_f1": 0.9269,
+      "weighted_f1": 0.9269
+    }
+  },
+  "confusion_matrix": {
+    "labels": [
+      "Happy",
+      "Sad",
+      "Angry",
+      "Fear",
+      "Surprise",
+      "Disgust",
+      "Neutral"
+    ],
+    "matrix": [
+      [
+        142,
+        4,
+        3,
+        2,
+        0,
+        2,
+        3
+      ],
+      [
+        2,
+        126,
+        0,
+        4,
+        3,
+        1,
+        1
+      ],
+      [
+        3,
+        0,
+        122,
+        1,
+        2,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        2,
+        146,
+        2,
+        2,
+        2
+      ],
+      [
+        1,
+        3,
+        2,
+        1,
+        140,
+        0,
+        1
+      ],
+      [
+        1,
+        2,
+        0,
+        0,
+        1,
+        129,
+        2
+      ],
+      [
+        3,
+        2,
+        2,
+        3,
+        3,
+        3,
+        122
+      ]
+    ]
+  }
+}
