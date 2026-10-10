@@ -16,7 +16,7 @@
 
 📌 Overview
 
-The **Multimodal Emotion Recognition System Using Deep Learning** is an academic deep learning platform designed to recognize emotional expressions from three complementary modalities: **facial expressions, speech characteristics, and text**.
+The Multimodal Emotion Recognition System Using Deep Learning is an academic deep learning platform designed to recognize emotional expressions from three complementary modalities: **facial expressions, speech characteristics, and text**.
 
 The system uses specialized deep learning models for each modality and combines their learned representations through a proposed **Multi-Head Cross-Attention Fusion** mechanism. It also incorporates Explainable AI (XAI) techniques to provide visual and feature-level insights into model predictions.
 
